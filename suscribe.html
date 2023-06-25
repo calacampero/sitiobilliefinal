@@ -61,13 +61,13 @@
             <div class="col-md-6 col-sm-12">
                 <div class="form">
                     <form name="contact" class="form-floating" netlify >
-                        <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" required>
-                        <label for="floatingInputValue">Email</label>
+                        <input type="email" class="form-control" id="floatingInputValue"  placeholder="name@example.com" required>
+                        <label name="email" for="floatingInputValue">Email</label>
                             
                         <div class="row g-3 mt-2">
                             <div class="col-sm-7">
                                 <div class="col-12">
-                                <label class="visually-hidden" for="inlineFormSelectPref" required>Preference</label>
+                                <label class="visually-hidden" name="name" for="inlineFormSelectPref" required>Preference</label>
                                 <select class="form-select" id="inlineFormSelectPref" required>
                                   <option selected>Choose your country</option>
                                   <option value="1">Argentina</option>
@@ -77,10 +77,10 @@
                               </div>
                             </div>
                             <div class="col-sm">
-                              <input type="text" class="form-control" placeholder="State" aria-label="State " required>
+                              <input type="text" class="form-control" placeholder="State" aria-label="State " name="state" required>
                             </div>
                             <div class="col-sm justify-content-center">
-                              <input type="text" class="form-control" placeholder="Zip" aria-label="Zip" required>
+                              <input type="text" class="form-control" placeholder="Zip" aria-label="Zip" name="zip" required>
                             </div>
                           </div>
                           <div class="col-12 mt-4 text-center">
