@@ -41,11 +41,8 @@ body{ font-family: 'Roboto Mono', monospace;
 nav h1{
     color: rgb(0, 0, 0);
 }
-.navbar-nav a{
-    color: rgb(159, 129, 92);
-}
+
 .navbar{
-    color: rgb(159, 129, 92);
     animation-name: anim1; 
     animation-duration: 3s;
     animation-delay:0s;
@@ -56,16 +53,13 @@ nav h1{
    width: 100%; 
    height: 2px;
    clip-path: var(--clippy);
-   transition: all .3s; }
+   transition: all .3s }
 
-.navbar-nav a:hover{ 
-    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+.navbar-nav a:hover { 
+    --clippy: polygon(0 0, 100% 0, 100% 99%, 0 100%);
 }
-.navbar-nav{ 
-    animation-name: anim3; 
-    animation-duration: 3s;
-    animation-delay:0s }
 
+ 
 .card-body a{
     text-decoration: none; 
     color: black;
@@ -110,12 +104,12 @@ a :hover{
     color: white;
     justify-content: center;
     }
-.nombre h1{
+.logo h1{
     transition: all 0.5s ease;
 }
-.nombre h1:hover{
+.logo h1:hover{
     opacity: 0.5;   
-    transform: scale(1.5) ;
+    transform: scale(1.2) ;
     transform-origin: top left;
 }
 .redes {
